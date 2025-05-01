@@ -176,7 +176,7 @@ footer:hover {
     display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .nav ul {
         display: none;
     }
@@ -262,5 +262,12 @@ footer:hover {
 
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .contact {
+        font-size: 13px;
     }
 }
