@@ -1,0 +1,166 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+
+.container {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(69, 29, 160, 255);
+    margin-bottom: 30px;
+}
+
+header .content {
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .content .logo {
+    width: 150px;
+}
+
+header .content .nav ul {
+    margin: 0px 20px;
+    column-gap: 80px;
+    justify-content: space-between;
+}
+
+
+header .content a {
+    color: white;
+}
+
+header .content a:hover {
+    color: aqua;
+}
+
+main {
+    flex-direction: column;
+    row-gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+main .main_title {
+    font-weight: bold;
+    margin-bottom: -20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main .job-list {
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+main .job-list .item {
+    border: 1px solid red;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+main .job-list .item {
+    border: 1px solid#696a6b;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+main .job-list .item:hover {
+    border: 1px solid #2784e1;
+    background-color: #dce8f5;
+}
+
+main .job-list .item .thumb {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+main .job-list .item .content {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    /* font-weight: bold; */
+}
+
+main .job-list .item .content .title {
+    color: black;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+}
+
+main .job-list .item .content .subtitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(101, 101, 101);
+}
+
+main .job-list .item .content .more {
+    column-gap: 120px;
+}
+
+main .job-list .item .content .price {
+    color: #2C95FF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main .job-list .item .content .address {
+    color: rgb(101, 101, 101);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+main .job-list .row2 {
+    text-align: right;
+    justify-content: end;
+}
+
+footer {
+    margin-top: 50px;
+    height: 200px;
+    background-color: #1861a9;
+}
+
+footer h1 {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+footer h1:hover {
+    /* color: #071b2f; */
+    background-color: #0d457e;
+}
+
+.i-gray {
+    color: rgb(169, 167, 167);
+}
+
+.fas {
+    padding-right: 6px;
+}
