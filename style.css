@@ -21,6 +21,7 @@ img {
 header {
     margin: auto;
     width: 100%;
+    padding: 2px 0 4px 0;
     background-color: rgba(69, 29, 160, 255);
     margin-bottom: 30px;
 }
@@ -116,14 +117,15 @@ main .job-list .item .content .subtitle {
     color: rgb(101, 101, 101);
 }
 
-main .job-list .item .content .more {
+/* main .job-list .item .content .more {
     column-gap: 120px;
-}
+} */
 
 main .job-list .item .content .price {
     color: #2C95FF;
     font-weight: bold;
     font-size: 14px;
+    width: 250px;
 }
 
 main .job-list .item .content .address {
