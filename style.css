@@ -266,6 +266,9 @@ footer:hover {
 }
 
 @media (max-width: 414px) {
+    footer {
+        padding: 20px 4px;
+    }
 
     .contact {
         font-size: 13px;
