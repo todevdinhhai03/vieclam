@@ -92,10 +92,13 @@ main .job-list .item:hover {
 }
 
 main .job-list .item .thumb {
-    /* border: 1px solid red; */
     width: 100px;
     height: 100px;
     margin-right: 20px;
+}
+
+main .job-list .item img {
+    border-radius: 8px;
 }
 
 main .job-list .item .content {
